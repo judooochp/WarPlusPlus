@@ -1,3 +1,12 @@
+/***********************************************************
+/   Copyright (c) 2017 Jacob Eugene Gilliam                /
+/                                                          /
+/   Do not sell this software without giving me some love. /
+/   Do not modify this software without my name.           /
+/   No warranty is provided.                               /
+***********************************************************/
+
+
 #include"stdafx.h"
 #include <string>
 #include <iostream>
@@ -324,7 +333,7 @@ public:
 		}
 	}
 
-	void cut() {					//	Cuts the deck randomly within ±10 cards from middle
+	void cut() {					//	Cuts the deck randomly within Â±10 cards from middle
 		int cutCard = (52 / 2 - 11) + (rand() % 20);
 		cardCls cutDeck[52];
 		for (int i = cutCard; i < 52; i++) {
