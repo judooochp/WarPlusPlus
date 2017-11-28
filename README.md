@@ -1,2 +1,2 @@
 # WarPlusPlus
-War in C++ for Windows
+War in C++ for Windows console
